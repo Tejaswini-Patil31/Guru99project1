@@ -9,7 +9,8 @@ public class BaseTestClass extends PojoClass{
 	
 	public void initializeBrowserSetup()
 	{
-		System.out.println("Browser is Open ");
+		System.out.println("This is Git Project");
+		System.out.println("Browser is Open");
 		String projectpath=System.getProperty("user.dir");
 		System.out.println("Project path="+projectpath);
 
